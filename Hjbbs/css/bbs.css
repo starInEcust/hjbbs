@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'microsoft yahei';
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+}
+/* 常用 */
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+#lbNumber .prevNext {
+  margin-right: 5px;
+}
+#lbNumber2 .prevNext {
+  margin-right: 5px;
+}
+.page_list a,
+#lbNumber a,
+#lbNumber span,
+#lbNumber2 span {
+  border: 1px solid #b1cadc;
+  color: #666;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+.page_list .current,
+#lbNumber .currpage,
+#lbNumber2 .currpage {
+  background-color: #E5EDF2;
+  font-weight: bold;
+}
+.page_list a:hover,
+#lbNumber a:hover {
+  background-color: #E5EDF2;
+}
+.ads {
+  height: 250px;
+}
+.article_list {
+  float: left;
+  width: 710px;
+}
+.article {
+  border: 1px solid #999999;
+  padding: 20px 15px;
+}
+.article h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #868686;
+}
+.article img {
+  width: 680px;
+  height: 180px;
+}
+.article .article_text {
+  margin-top: 0;
+  font-size: 13px;
+  color: #949494;
+  line-height: 20px;
+}
+.article .article_info {
+  font-size: 12px;
+  color: #AEAEAE;
+}
+.right_slide {
+  margin-left: 8px;
+  float: left;
+  width: 280px;
+}
+.right_slide .right_slide_block {
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 270px;
+  border: 1px solid #333333;
+}
+.right_slide .hot_plate li {
+  float: left;
+  width: 65px;
+  margin-left: 20px;
+}

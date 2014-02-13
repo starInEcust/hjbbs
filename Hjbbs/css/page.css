@@ -1,0 +1,25 @@
+#lbNumber .prevNext {
+  margin-right: 5px;
+}
+#lbNumber2 .prevNext {
+  margin-right: 5px;
+}
+.page_list a,
+#lbNumber a,
+#lbNumber span,
+#lbNumber2 span {
+  border: 1px solid #b1cadc;
+  color: #666;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+.page_list .current,
+#lbNumber .currpage,
+#lbNumber2 .currpage {
+  background-color: #E5EDF2;
+  font-weight: bold;
+}
+.page_list a:hover,
+#lbNumber a:hover {
+  background-color: #E5EDF2;
+}

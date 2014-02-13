@@ -1,0 +1,68 @@
+@import "base.less";
+@import "functionLib.less";
+@import "var.less";
+
+.post_statistics{
+  width: 100%;
+  height: 74px;
+  background-color: @bgc;
+  padding: 6px 0 6px 0;
+  .post_tab{
+    height: 65px;
+    padding: 0 80px 10px 80px;
+    text-align: center;
+    line-height: 40px;
+    width: 80px;
+    display: block;
+    float: left;
+    font-size: 18px;
+    border-right: 2px solid #999;
+    color: #ffffff;
+  }
+  .nb{
+    border: none;
+  }
+}
+.all_plate{
+  width: 100%;
+  border: 1px solid @bordercolor;
+}
+.one_plate{
+  .plate_title{
+    font-size: 16px;
+    color: rgb(51,51,51);
+
+  }
+  .list_group{
+    li{
+      padding: 10px 5px;
+      width: 310px;
+      height: 90px;
+      float: left;
+      border-top: 1px solid @bordercolor;
+      border-bottom: 1px solid @bordercolor;
+    }
+    p{
+      font-size: 14px;
+      color: rgb(148,148,148);
+    }
+    .group_title{
+      font-family: 'microsoft yahei';
+      font-weight: 700;
+      font-size: 20px;
+      color: #949494;
+    }
+    img{
+      @long:50px;
+      width: @long;
+      height: @long;
+      float: left;
+    }
+    .group_info{
+      margin-left: 10px;
+      float: left;
+      width: 250px;
+      border:none;
+    }
+  }
+}
